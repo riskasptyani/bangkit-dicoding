@@ -21,8 +21,8 @@ def bike_year_df(df):
     return year_df
 
 # Mengimport data dari csv
-day_df = pd.read_csv("dashboard/day.csv")
-hour_df = pd.read_csv("dashboard/hour.csv")
+day_df = pd.read_csv("https://raw.githubusercontent.com/riskasptyani/bangkit-dicoding/main/data/day.csv")
+hour_df = pd.read_csv("https://raw.githubusercontent.com/riskasptyani/bangkit-dicoding/main/data/hour.csv")
 
 # Mengubah tipe data datetime, dan juga merubah beberapa nama kolom pada day_df
 datetime_columns = ["dteday"]
