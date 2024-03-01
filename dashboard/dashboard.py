@@ -66,7 +66,7 @@ max_date = day_df["date"].max()
 with st.sidebar:
     # Menambahkan logo dan namas
     st.write("Riska's Bike Sharing")
-    st.image("undraw_Ride_a_bicycle_re_6tjy-removebg-preview.png")
+    st.image("dashboard/undraw_Ride_a_bicycle_re_6tjy-removebg-preview.png")
     # Menginisialisasi start_date & end_date dari date_input
     start_date, end_date = st.date_input(
         label='Rentang Waktu',
